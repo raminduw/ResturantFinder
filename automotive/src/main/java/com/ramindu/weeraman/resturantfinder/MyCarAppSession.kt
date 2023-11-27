@@ -9,6 +9,7 @@ import com.ramindu.weeraman.resturantfinder.ui.RestaurantListScreen
 class MyCarAppSession : Session() {
 
     override fun onCreateScreen(intent: Intent): Screen {
+        // return CarInfoScreen(carContext)
         return RestaurantListScreen(carContext)
     }
 }
